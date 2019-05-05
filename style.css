@@ -9,3 +9,19 @@
 .blue {
     color: blue;
 }
+
+table {
+    width: 30%;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+table tr td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #888
+  }
